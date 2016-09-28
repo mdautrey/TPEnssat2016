@@ -14,10 +14,10 @@ public class App {
         System.out.println("Chemin vers un fichier CSV ?");
         String csvFileName = scanner.next();
         System.out.println("Chemin vers un fichier txt ?");
-        // A COMPLETER
+        String txtFileName = scanner.next();
         ArrayList<FileInfo> fileInfoArrayList = new ArrayList<FileInfo>();
-        fileInfoArrayList.add(new CSVInfo());
-        // A COMPLETER
+        fileInfoArrayList.add(new CSVInfo(csvFileName));
+        fileInfoArrayList.add(new TxtInfo(txtFileName));
         for(FileInfo f : fileInfoArrayList){
             System.out.println(f.toString());
         }
