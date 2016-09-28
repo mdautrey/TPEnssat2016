@@ -7,6 +7,7 @@ import TP1.core.TxtInterfaceImpl;
  */
 public class TxtInfo extends FileInfo {
     public TxtInfo(String fileName){
-        // A COMPLETER
+        setFileName(fileName);
+        setFileInterface(new TxtInterfaceImpl());
     }
 }
