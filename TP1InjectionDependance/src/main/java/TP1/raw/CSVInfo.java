@@ -11,6 +11,13 @@ public class CSVInfo extends FileInfo {
    
     @Override
     public int getNRows() {
-        // A COMPLETER
+        int nRows;
+        try{
+            nRows = countLines(getFileName());
+        }
+        catch(IOException e){
+            nRows = -1;
+        }
+        return nRows;
     }
 }
