@@ -20,10 +20,10 @@ public class App {
         String csvFileName = scanner.next();
         csvFile.setFileName(csvFileName);
         System.out.println("Chemin vers un fichier txt ?");
-        // A COMPLETER
+        txtFile.setFileName(txtFileName);
         ArrayList<FileInfo> fileInfoArrayList = new ArrayList<FileInfo>();
         fileInfoArrayList.add(csvFile);
-        // A COMPLETER
+        fileInfoArrayList.add(txtFile);
         for(FileInfo f : fileInfoArrayList) {
             System.out.println(f.toString());
         }
