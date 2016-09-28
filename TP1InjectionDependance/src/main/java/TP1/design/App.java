@@ -15,8 +15,8 @@ public class App {
         System.out.println("Chemin vers un fichier txt ?");
         String txtFileName = scanner.next();
         ArrayList<FileInfo> fileInfoArrayList = new ArrayList<FileInfo>();
-        // fileInfoArrayList.add(// A COMPLETER);
-        // fileInfoArrayList.add(// A COMPLETER);
+        fileInfoArrayList.add(new CSVInfo(csvFileName));
+        fileInfoArrayList.add(new TxtInfo(txtFileName));
         for(FileInfo f : fileInfoArrayList){
             System.out.println(f.toString());
         }
