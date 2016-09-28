@@ -67,5 +67,4 @@ Nous nous efforcerons d'utiliser un environnement et des méthodes de développe
 * O'Reilly, "Head first design patterns" (http://shop.oreilly.com/product/9780596007126.do)
 * Manning, "Spring in action" (https://www.manning.com/books/spring-in-action-fourth-edition)
 * Manning, "Junit in action" (https://www.manning.com/books/junit-in-action-second-edition)
-*
 * Eyrolles, "Java et Spring - Concevoir, construire et développer une application Java/J2EE avec Spring", (https://www.amazon.fr/Java-Spring-construire-d%C3%A9velopper-application/dp/2746055147)

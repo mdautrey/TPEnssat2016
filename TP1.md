@@ -70,3 +70,5 @@ A faire :
 * Ajouter un fichier de configuration spring pour réaliser la déclaration des beans et l'injection de dépendance
 * Construire et tester l'ensemble
 
+## Plan de travail
+Le code est fourni sur github. Les parties à compléter sont indiquées par des commentaires dans le code.
