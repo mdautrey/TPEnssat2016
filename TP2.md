@@ -27,4 +27,4 @@
     
 ## Réalisation :
 
-Une trame pour démarrer les développements est fournie dans le module TP2Web. Ce module est extrait directement des exemples fournis par spring sur le site https://github.com/mdautrey/TPEnssat2016 .
+Une trame pour démarrer les développements est fournie dans le module TP2Web. Ce module est extrait directement des exemples fournis par spring sur le site https://spring.io/guides .
