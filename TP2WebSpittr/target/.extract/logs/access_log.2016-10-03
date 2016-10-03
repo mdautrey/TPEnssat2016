@@ -1,0 +1,11 @@
+127.0.0.1 - - [03/Oct/2016:18:11:44 +0200] GET / HTTP/1.1 404 - http-bio-8080-exec-1 0
+127.0.0.1 - - [03/Oct/2016:18:11:44 +0200] GET /favicon.ico HTTP/1.1 404 - http-bio-8080-exec-2 0
+127.0.0.1 - - [03/Oct/2016:18:11:50 +0200] GET /requestweather HTTP/1.1 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [03/Oct/2016:18:11:54 +0200] GET / HTTP/1.1 404 - http-bio-8080-exec-4 0
+127.0.0.1 - - [03/Oct/2016:18:11:56 +0200] GET / HTTP/1.1 404 - http-bio-8080-exec-5 0
+127.0.0.1 - - [03/Oct/2016:18:13:23 +0200] GET /spittr HTTP/1.1 302 - http-bio-8080-exec-1 0
+127.0.0.1 - - [03/Oct/2016:18:13:23 +0200] GET /spittr/ HTTP/1.1 404 965 http-bio-8080-exec-2 13
+127.0.0.1 - - [03/Oct/2016:18:13:23 +0200] GET /favicon.ico HTTP/1.1 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [03/Oct/2016:18:13:33 +0200] GET /spittr/spitter HTTP/1.1 404 979 http-bio-8080-exec-4 0
+127.0.0.1 - - [03/Oct/2016:18:14:27 +0200] GET /spittr/ HTTP/1.1 404 965 http-bio-8080-exec-1 24
+127.0.0.1 - - [03/Oct/2016:18:14:28 +0200] GET /spittr/ HTTP/1.1 404 965 http-bio-8080-exec-2 1
