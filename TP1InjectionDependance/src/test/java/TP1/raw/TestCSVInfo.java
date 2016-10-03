@@ -1,6 +1,5 @@
 package TP1.raw;
 
-import TP1.raw.CSVInfo;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -14,7 +13,7 @@ import org.junit.Test;
 * @version 1.0 
 */ 
 public class TestCSVInfo {
-    CSVInfo csvInfo = new CSVInfo();
+    CSVInfo csvInfo = new CSVInfo("test");
 @Before
 public void before() throws Exception { 
 } 

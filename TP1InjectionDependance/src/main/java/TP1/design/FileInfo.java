@@ -32,7 +32,6 @@ public abstract class FileInfo {
         return -1;
     }
     public String toString(){
-        return String.format("Le fichier %s contient %s ligne", 
-                             fileName, getNRows());
+        return String.format("Le fichier %s contient %s lignes", fileName, getNRows());
     }
 }

@@ -9,7 +9,7 @@ public abstract class FileInfo {
     public String getFileName(){
         return this.fileName;
     }
-    public void setFileName(){
+    public void setFileName(String fileName){
         this.fileName = fileName;
     }
     public abstract int getNRows();

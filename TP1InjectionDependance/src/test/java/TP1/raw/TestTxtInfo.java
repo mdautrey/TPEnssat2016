@@ -1,6 +1,5 @@
 package TP1.raw;
 
-import TP1.raw.TxtInfo;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -18,7 +17,7 @@ public class TestTxtInfo {
 
     @Before
 public void before() throws Exception {
-    txtInfo = new TxtInfo();
+    txtInfo = new TxtInfo("test");
 } 
 
 @After

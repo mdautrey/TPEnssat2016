@@ -7,6 +7,6 @@ import java.io.IOException;
  */
 public class CsvInterfaceImpl implements FileInterface {
     public int getNRows(String fileName) throws IOException {
-        // A COMPLETER
+        return FileHelper.countLines(fileName);
     }
 }
