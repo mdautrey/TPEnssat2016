@@ -1,7 +1,8 @@
 # TP4 : portage du code de l'example spring.io de Java 8 vers Java 7
 
 Le code proposé sur le site spring.io est prévu pour Java 8. (https://spring.io/guides/gs/uploading-files/).
-Les machines de l'ENSSAT sont installées avec Java 7. Il y a 3 parties de code qui ne fonctionnent pas sous Java 7.
+Les machines de l'ENSSAT sont installées avec Java 7. Il y a 3 parties de code qui ne fonctionnent pas sous Java 7 et qui
+constituent finalement 2 problèmes à régler.
 
 ## 1er problème : initialisation de l'application spring boot
 Au démarrage de l'application, le code actuel fait appel aux lambdas :
@@ -194,11 +195,11 @@ qui après quelques modifications donne ceci :
 Et l'on a réglé le problème d'utilisation du stream dans la couche de persistance.
 
 ### Problème d'utilisation du lambda pour générer l'attribut passé au modèle dans le contrôleur
-La transformation a réaliser pour régler ce deuxième problème est à peu près équivalent à celle utilisée dans la couche
+La transformation à réaliser pour régler ce deuxième problème est à peu près équivalente à celle utilisée dans la couche
 persistance, à savoir remplacer le pattern map + collect par une itération.
 
 Ce qui donne ceci :
-    
+
     @GetMapping("/")
     public String listUploadedFiles(Model model) throws IOException {
         List<String> files = new ArrayList<>();
